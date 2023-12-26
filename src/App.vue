@@ -1,26 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <main id="app">
+    <Nav />
+    <router-view />
+    <PageFooter />
+  </main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Nav from './components/nav.vue'
+import PageFooter from "@/components/Footer.vue";
+// import M from 'materialize-css'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PageFooter,
+    Nav,
+  },
+  mounted () {
+    // M.AutoInit()
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
