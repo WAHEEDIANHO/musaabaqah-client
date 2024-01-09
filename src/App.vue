@@ -1,8 +1,8 @@
 <template>
   <main id="app">
-    <Nav />
+    <Nav v-if="!($route.path.toString().endsWith('moderator') || $route.path.endsWith('participant'))" />
     <router-view />
-    <PageFooter />
+    <PageFooter v-if="!($route.path.endsWith('moderator') || $route.path.endsWith('participant'))" />
   </main>
 </template>
 
@@ -20,6 +20,7 @@ export default {
   },
   mounted () {
     // M.AutoInit()
+    console.log(this.$route.path)
   }
 }
 </script>
