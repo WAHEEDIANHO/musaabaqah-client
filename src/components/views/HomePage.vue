@@ -6,136 +6,50 @@
 <!--    </div>&lt;!&ndash; Page Loader &ndash;&gt;-->
 
 
-    <section>
-      <div class="w-100 position-relative">
-        <div class="feat-wrap v1 text-center position-relative w-100">
-          <div class="feat-caro">
-            <div class="feat-item">
-              <div class="feat-img position-absolute" style="background-image: url(assets/images/resources/slide1.jpg);"></div>
-              <div class="feat-cap-wrap position-absolute d-inline-block">
-                <div class="feat-cap d-inline-block">
-                  <i class="d-inline-block flaticon-rub-el-hizb thm-clr"></i>
-                  <h2 class="mb-0">Nothing Is Impossible With Allah</h2>
-                  <p class="mb-0">Consectetur adipiscing elit duis volutpat ligula nulla dapibus.</p>
-                  <a class="thm-btn thm-bg" href="about.html" title="">Take A Tour<span></span><span></span><span></span><span></span></a>
-                </div>
-              </div>
-            </div>
-            <div class="feat-item">
-              <div class="feat-img position-absolute" style="background-image: url(assets/images/resources/slide2.jpg);"></div>
-              <div class="feat-cap-wrap position-absolute d-inline-block">
-                <div class="feat-cap d-inline-block">
-                  <i class="d-inline-block flaticon-rub-el-hizb thm-clr"></i>
-                  <h2 class="mb-0">Allah Help Those Who Help Themselves</h2>
-                  <p class="mb-0">Consectetur adipiscing elit duis volutpat ligula nulla dapibus.</p>
-                  <a class="thm-btn thm-bg" href="about.html" title="">Take A Tour<span></span><span></span><span></span><span></span></a>
-                </div>
-              </div>
-            </div>
-            <div class="feat-item">
-              <div class="feat-img position-absolute" style="background-image: url(assets/images/resources/slide3.jpg);"></div>
-              <div class="feat-cap-wrap position-absolute d-inline-block">
-                <div class="feat-cap d-inline-block">
-                  <i class="d-inline-block flaticon-rub-el-hizb thm-clr"></i>
-                  <h2 class="mb-0">Islam is an Abrahamic Monotheistic Religion</h2>
-                  <p class="mb-0">Consectetur adipiscing elit duis volutpat ligula nulla dapibus.</p>
-                  <a class="thm-btn thm-bg" href="about.html" title="">Take A Tour<span></span><span></span><span></span><span></span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div><!-- Featured Area Wrap -->
-      </div>
-    </section>
+<!--    <section>-->
+<!--      <div class="w-100 position-relative">-->
+<!--        <div class="feat-wrap v1 text-center position-relative w-100">-->
+<!--          <div class="feat-caro">-->
+<!--            <div class="feat-item">-->
+<!--              <div class="feat-img position-absolute" style="background-image: url(assets/images/resources/slide1.jpg);"></div>-->
+<!--              <div class="feat-cap-wrap position-absolute d-inline-block">-->
+<!--                <div class="feat-cap d-inline-block">-->
+<!--                  <i class="d-inline-block flaticon-rub-el-hizb thm-clr"></i>-->
+<!--                  <h2 class="mb-0">Nothing Is Impossible With Allah</h2>-->
+<!--                  <p class="mb-0">Consectetur adipiscing elit duis volutpat ligula nulla dapibus.</p>-->
+<!--                  <a class="thm-btn thm-bg" href="about.html" title="">Take A Tour<span></span><span></span><span></span><span></span></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="feat-item">-->
+<!--              <div class="feat-img position-absolute" style="background-image: url(assets/images/resources/slide2.jpg);"></div>-->
+<!--              <div class="feat-cap-wrap position-absolute d-inline-block">-->
+<!--                <div class="feat-cap d-inline-block">-->
+<!--                  <i class="d-inline-block flaticon-rub-el-hizb thm-clr"></i>-->
+<!--                  <h2 class="mb-0">Allah Help Those Who Help Themselves</h2>-->
+<!--                  <p class="mb-0">Consectetur adipiscing elit duis volutpat ligula nulla dapibus.</p>-->
+<!--                  <a class="thm-btn thm-bg" href="about.html" title="">Take A Tour<span></span><span></span><span></span><span></span></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="feat-item">-->
+<!--              <div class="feat-img position-absolute" style="background-image: url(assets/images/resources/slide3.jpg);"></div>-->
+<!--              <div class="feat-cap-wrap position-absolute d-inline-block">-->
+<!--                <div class="feat-cap d-inline-block">-->
+<!--                  <i class="d-inline-block flaticon-rub-el-hizb thm-clr"></i>-->
+<!--                  <h2 class="mb-0">Islam is an Abrahamic Monotheistic Religion</h2>-->
+<!--                  <p class="mb-0">Consectetur adipiscing elit duis volutpat ligula nulla dapibus.</p>-->
+<!--                  <a class="thm-btn thm-bg" href="about.html" title="">Take A Tour<span></span><span></span><span></span><span></span></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>&lt;!&ndash; Featured Area Wrap &ndash;&gt;-->
+<!--      </div>-->
+<!--    </section>-->
     <section>
       <div class="w-100 thm-layer opc7 position-relative">
         <div class="fixed-bg patern-bg back-blend-multiply thm-bg" style="background-image: url(assets/images/pattern-bg.jpg);"></div>
-        <div class="container">
-          <div class="plyr-cont-wrap w-100">
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-lg-4">
-                <div class="plyr-wrp overlap155 w-100">
-                  <h3 class="mb-0 text-center pat-bg thm-layer opc7 back-blend-multiply thm-bg" style="background-image: url(assets/images/pattern-bg.jpg);">Listen to Quran Audio</h3>
-                  <div class="plyr-inner w-100">
-                    <div class="plyr w-100">
-                      <ul class="playlist mb-0 list-unstyled">
-                        <li data-cover="assets/images/audio-cover.jpg" data-artist="(Abd-ur Rahman)"><a href="assets/audio/surah-fateh.mp3" title="">Surah Fath</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-6 col-lg-8">
-                <div class="cont-info w-100">
-                  <ul class="cont-info-list d-flex flex-wrap mb-0 list-unstyled w-100">
-                    <li><span class="thm-bg"><i class="fas fa-phone-alt"></i></span>+96 125 554 24 5</li>
-                    <li><span class="thm-bg"><i class="far fa-envelope"></i></span><a href="javascript:void(0);" title="">info@youremailid.com</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div><!-- Player & Contact Wrap -->
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="w-100 pt-90 gray-layer opc85 position-relative">
-        <div class="fixed-bg patern-bg back-blend-multiply gray-bg" style="background-image: url(assets/images/pattern-bg.jpg);"></div>
-        <div class="container">
-          <div class="sec-title text-center w-100">
-            <div class="sec-title-inner d-inline-block">
-              <i class="thm-clr flaticon-rub-el-hizb"></i>
-              <h2 class="mb-0">Don't Miss Special Packages</h2>
-              <p class="mb-0">Adipiscing elit duis volutpat ligula nulla dapibus.</p>
-            </div>
-          </div><!-- Sec Title -->
-          <div class="prod-wrap overlap-150 prod-caro w-100">
-            <div class="prod-box d-block w-100">
-              <div class="row mrg">
-                <div class="col-md-6 col-sm-12 col-lg-6">
-                  <div class="prod-img overflow-hidden position-relative w-100">
-                    <a href="product-detail.html" title=""><img class="img-fluid w-100" src="assets/images/resources/prod-img1-1.jpg" alt="Product Image 1"></a>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-12 col-lg-6">
-                  <div class="prod-info w-100">
-                    <span class="price pat-bg thm-layer opc7 back-blend-multiply thm-bg position-absolute" style="background-image: url(assets/images/pattern-bg.jpg);">$7.99</span>
-                    <span class="prod-publish d-block">Audible Studios <span class="thm-clr">(Publisher)</span></span>
-                    <h3 class="mb-0"><a href="product-detail.html" title="">The Qur'an: A New Translation by M. A. S. Abdel Haleem</a></h3>
-                    <div class="rate-wrap d-block"><span class="rate thm-clr"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span> <i>1,862 Ratings</i></div>
-                    <p class="mb-0">The Qur'an, believed by Muslims to be the word of God, was revealed to the Prophet Muhammad 1,400 years ago. It is the supreme authority in Islam and the living source of all Islamic teaching...</p>
-                    <div class="qty-wrap">
-                      <input class="qty" type="text" value="50">
-                    </div>
-                    <a href="product-detail.html" title="">Order Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="prod-box d-block w-100">
-              <div class="row mrg">
-                <div class="col-md-6 col-sm-12 col-lg-6">
-                  <div class="prod-img overflow-hidden position-relative w-100">
-                    <a href="product-detail.html" title=""><img class="img-fluid w-100" src="assets/images/resources/prod-img1-2.jpg" alt="Product Image 2"></a>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-12 col-lg-6">
-                  <div class="prod-info w-100">
-                    <span class="price pat-bg thm-layer opc7 back-blend-multiply thm-bg position-absolute" style="background-image: url(assets/images/pattern-bg.jpg);">$5.99</span>
-                    <span class="prod-publish d-block">Audible Studios <span class="thm-clr">(Publisher)</span></span>
-                    <h3 class="mb-0"><a href="product-detail.html" title="">The Quran and Muslim unity - IslamiCity</a></h3>
-                    <div class="rate-wrap d-block"><span class="rate thm-clr"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span> <i>1,862 Ratings</i></div>
-                    <p class="mb-0">The Qur'an, believed by Muslims to be the word of God, was revealed to the Prophet Muhammad 1,400 years ago. It is the supreme authority in Islam and the living source of all Islamic teaching...</p>
-                    <div class="qty-wrap">
-                      <input class="qty" type="text" value="50">
-                    </div>
-                    <a href="product-detail.html" title="">Order Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- Products Wrap -->
-        </div>
       </div>
     </section>
     <section>
@@ -150,63 +64,6 @@
               <a class="thm-btn thm-bg" href="about.html" title="">Learn More<span></span><span></span><span></span><span></span></a>
             </div>
           </div><!-- About Wrap -->
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="w-100 pb-80 position-relative">
-        <div class="container">
-          <div class="sec-title text-center w-100">
-            <div class="sec-title-inner d-inline-block">
-              <i class="thm-clr flaticon-rub-el-hizb"></i>
-              <h2 class="mb-0">Services We Offer</h2>
-              <p class="mb-0">Adipiscing elit duis volutpat ligula nulla dapibus.</p>
-            </div>
-          </div><!-- Sec Title -->
-          <div class="serv-wrap wide-sec">
-            <div class="row mrg10 serv-caro">
-              <div class="col-md-4 col-sm-6 col-lg-3">
-                <div class="serv-box text-center pat-bg gray-layer opc85 position-relative back-blend-multiply gray-bg w-100" style="background-image: url(assets/images/pattern-bg.jpg);">
-                  <i class="flaticon-mat thm-clr"></i>
-                  <h3 class="mb-0">Help Poor's</h3>
-                  <p class="mb-0">Lorem ipsum dolor sit amet, coteudtu adipisicing elit, sed do eiusmod tem por incididunt ut labore et.</p>
-                  <a href="services-detail.html" title="">Read More</a>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 col-lg-3">
-                <div class="serv-box text-center pat-bg gray-layer opc85 position-relative back-blend-multiply gray-bg w-100" style="background-image: url(assets/images/pattern-bg.jpg);">
-                  <i class="flaticon-minaret thm-clr"></i>
-                  <h3 class="mb-0">Mosque Development</h3>
-                  <p class="mb-0">Lorem ipsum dolor sit amet, coteudtu adipisicing elit, sed do eiusmod tem por incididunt ut labore et.</p>
-                  <a href="services-detail.html" title="">Read More</a>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 col-lg-3">
-                <div class="serv-box text-center pat-bg gray-layer opc85 position-relative back-blend-multiply gray-bg w-100" style="background-image: url(assets/images/pattern-bg.jpg);">
-                  <i class="flaticon-grave thm-clr"></i>
-                  <h3 class="mb-0">Funeral Service</h3>
-                  <p class="mb-0">Lorem ipsum dolor sit amet, coteudtu adipisicing elit, sed do eiusmod tem por incididunt ut labore et.</p>
-                  <a href="services-detail.html" title="">Read More</a>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 col-lg-3">
-                <div class="serv-box text-center pat-bg gray-layer opc85 position-relative back-blend-multiply gray-bg w-100" style="background-image: url(assets/images/pattern-bg.jpg);">
-                  <i class="flaticon-quran thm-clr"></i>
-                  <h3 class="mb-0">Quran Learning</h3>
-                  <p class="mb-0">Lorem ipsum dolor sit amet, coteudtu adipisicing elit, sed do eiusmod tem por incididunt ut labore et.</p>
-                  <a href="services-detail.html" title="">Read More</a>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 col-lg-3">
-                <div class="serv-box text-center pat-bg gray-layer opc85 position-relative back-blend-multiply gray-bg w-100" style="background-image: url(assets/images/pattern-bg.jpg);">
-                  <i class="flaticon-arabic thm-clr"></i>
-                  <h3 class="mb-0">Community Service</h3>
-                  <p class="mb-0">Lorem ipsum dolor sit amet, coteudtu adipisicing elit, sed do eiusmod tem por incididunt ut labore et.</p>
-                  <a href="services-detail.html" title="">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div><!-- Services Wrap -->
         </div>
       </div>
     </section>
@@ -319,91 +176,6 @@
       </div>
     </section>
     <section>
-      <div class="w-100 pt-90 gray-layer pb-110 opc85 position-relative">
-        <div class="fixed-bg patern-bg back-blend-multiply gray-bg" style="background-image: url(assets/images/pattern-bg.jpg);"></div>
-        <div class="container">
-          <div class="sec-title text-center w-100">
-            <div class="sec-title-inner d-inline-block">
-              <i class="thm-clr flaticon-rub-el-hizb"></i>
-              <h2 class="mb-0">Islamic Scholars</h2>
-              <p class="mb-0">Adipiscing elit duis volutpat ligula nulla dapibus.</p>
-            </div>
-          </div><!-- Sec Title -->
-          <div class="team-wrap res-row wide-sec2">
-            <div class="row">
-              <div class="col-md-4 col-sm-6 col-lg-3">
-                <div class="team-box text-center w-100">
-                  <div class="team-img overflow-hidden position-relative w-100">
-                    <img class="img-fluid w-100" src="assets/images/resources/team-img1-1.jpg" alt="Team Image 1">
-                    <div class="social-links2 text-center d-inline-flex position-absolute">
-                      <a class="facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                      <a class="twitter" href="https://twitter.com/" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-                      <a class="youtube" href="https://www.youtube.com/" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
-                    </div>
-                  </div>
-                  <div class="team-info">
-                    <h3 class="mb-0"><a href="scholar-detail.html" title="">M. Ishaq</a></h3>
-                    <span class="d-block thm-clr">Scholar</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 col-lg-3">
-                <div class="team-box text-center w-100">
-                  <div class="team-img overflow-hidden position-relative w-100">
-                    <img class="img-fluid w-100" src="assets/images/resources/team-img1-2.jpg" alt="Team Image 2">
-                    <div class="social-links2 text-center d-inline-flex position-absolute">
-                      <a class="facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                      <a class="twitter" href="https://twitter.com/" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-                      <a class="youtube" href="https://www.youtube.com/" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
-                    </div>
-                  </div>
-                  <div class="team-info">
-                    <h3 class="mb-0"><a href="scholar-detail.html" title="">Dorri-Najafabadi</a></h3>
-                    <span class="d-block thm-clr">Scholar</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 col-lg-3">
-                <div class="team-box text-center w-100">
-                  <div class="team-img overflow-hidden position-relative w-100">
-                    <img class="img-fluid w-100" src="assets/images/resources/team-img1-3.jpg" alt="Team Image 3">
-                    <div class="social-links2 text-center d-inline-flex position-absolute">
-                      <a class="facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                      <a class="twitter" href="https://twitter.com/" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-                      <a class="youtube" href="https://www.youtube.com/" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
-                    </div>
-                  </div>
-                  <div class="team-info">
-                    <h3 class="mb-0"><a href="scholar-detail.html" title="">M. Ebrahim</a></h3>
-                    <span class="d-block thm-clr">Mufti</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 col-lg-3">
-                <div class="team-box text-center w-100">
-                  <div class="team-img overflow-hidden position-relative w-100">
-                    <img class="img-fluid w-100" src="assets/images/resources/team-img1-4.jpg" alt="Team Image 4">
-                    <div class="social-links2 text-center d-inline-flex position-absolute">
-                      <a class="facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                      <a class="twitter" href="https://twitter.com/" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-                      <a class="youtube" href="https://www.youtube.com/" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
-                    </div>
-                  </div>
-                  <div class="team-info">
-                    <h3 class="mb-0"><a href="scholar-detail.html" title="">Reza Hosseini</a></h3>
-                    <span class="d-block thm-clr">Scholar</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- Team Wrap -->
-          <div class="view-more mt-05 d-inline-block text-center w-100">
-            <a class="thm-btn thm-bg" href="scholar-style1.html" title="">More Scholars<span></span><span></span><span></span><span></span></a>
-          </div><!-- View More -->
-        </div>
-      </div>
-    </section>
-    <section>
       <div class="w-100 pt-90 pb-80 position-relative">
         <img class="img-fluid sec-top-mckp position-absolute" src="assets/images/sec-top-mckp2.png" alt="Sec Top Mockup 2">
         <div class="container">
@@ -510,113 +282,6 @@
               </li>
             </ul>
           </div><!-- Pillars Wrap -->
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="w-100 pt-90 gray-layer pb-90 opc85 position-relative">
-        <div class="fixed-bg patern-bg back-blend-multiply gray-bg" style="background-image: url(assets/images/pattern-bg.jpg);"></div>
-        <div class="container">
-          <div class="sec-title text-center w-100">
-            <div class="sec-title-inner d-inline-block">
-              <i class="flaticon-rub-el-hizb thm-clr"></i>
-              <h2 class="mb-0">Charity Campaigns</h2>
-              <p class="mb-0">Adipiscing elit duis volutpat ligula nulla dapibus.</p>
-            </div>
-          </div><!-- Sec Title -->
-          <div class="camp-wrap w-100">
-            <div class="camp-box w-100">
-              <div class="row mrg align-items-center">
-                <div class="col-md-12 col-sm-12 col-lg-7 order-lg-1">
-                  <div class="camp-img position-relative w-100">
-                    <img class="img-fluid w-100" src="assets/images/resources/camp-img1-1.jpg" alt="Campaign Image 1">
-                    <a class="thm-bg spinner position-absolute" href="https://www.youtube.com/embed/WxuHBTES2-s" data-fancybox title=""><i class="flaticon-play"></i></a>
-                  </div>
-                </div>
-                <div class="col-md-12 col-sm-12 col-lg-5">
-                  <div class="camp-info pat-bg thm-layer opc8 position-relative back-blend-multiply thm-bg" style="background-image: url(assets/images/pattern-bg.jpg);">
-                    <h3 class="mb-0">Children to Shape Their Poor Own Future</h3>
-                    <span class="proj-loc d-block">Project In: <i>Nigeria</i></span>
-                    <p class="mb-0">Lorem ipsum dolor sit amet, coteudtu adipi sicing elit, sed do eiusmod tempor incididu dntut labore et.</p>
-                    <div class="goal">
-                      <span class="price d-block">$42,610</span>
-                      <i class="d-block">Donation Needed</i>
-                    </div>
-                    <a class="thm-btn bg-black" href="donation-detail.html" title="">Make Donation<span></span><span></span><span></span><span></span></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- Campaign Wrap -->
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="w-100 pt-90 pb-235 position-relative">
-        <img class="sec-botm-rgt-mckp img-fluid position-absolute" src="assets/images/sec-botm-mckp.png" alt="Sec Bottom Mockup">
-        <div class="container">
-          <div class="sec-title text-center w-100">
-            <div class="sec-title-inner d-inline-block">
-              <i class="flaticon-rub-el-hizb thm-clr"></i>
-              <h2 class="mb-0">Recent News & Updates</h2>
-              <p class="mb-0">Adipiscing elit duis volutpat ligula nulla dapibus.</p>
-            </div>
-          </div><!-- Sec Title -->
-          <div class="blog-wrap res-row w-100">
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-lg-4">
-                <div class="post-box w-100">
-                  <div class="post-img overflow-hidden position-relative w-100">
-                    <a href="blog-detail.html" title=""><img class="img-fluid w-100" src="assets/images/resources/blog-img1-1.jpg" alt="Blog Image 1"></a>
-                  </div>
-                  <div class="post-info position-relative w-100">
-                    <a class="thm-bg" href="blog-detail.html" title=""><i class="fas fa-link"></i></a>
-                    <span class="post-date thm-clr">July 30, 2020</span>
-                    <h3 class="mb-0"><a href="blog-detail.html" title="">American Muslim: Choosing to Remain Still This Ramadan</a></h3>
-                    <ul class="post-meta d-flex flex-wrap mb-0 list-unstyled">
-                      <li><i class="fas fa-user-alt"></i>By: <a href="javascript:void(0);" title="">James Smith</a></li>
-                      <li><i class="fas fa-comment-alt"></i>1 Comments</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-6 col-lg-4">
-                <div class="post-box w-100">
-                  <div class="post-img overflow-hidden position-relative w-100">
-                    <a href="blog-detail.html" title=""><img class="img-fluid w-100" src="assets/images/resources/blog-img1-2.jpg" alt="Blog Image 2"></a>
-                  </div>
-                  <div class="post-info position-relative w-100">
-                    <a class="thm-bg" href="blog-detail.html" title=""><i class="fas fa-link"></i></a>
-                    <span class="post-date thm-clr">June 28, 2020</span>
-                    <h3 class="mb-0"><a href="blog-detail.html" title="">How to Teach Kids Ramadan Isn't about Food</a></h3>
-                    <ul class="post-meta d-flex flex-wrap mb-0 list-unstyled">
-                      <li><i class="fas fa-user-alt"></i>By: <a href="javascript:void(0);" title="">James Smith</a></li>
-                      <li><i class="fas fa-comment-alt"></i>5 Comments</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-6 col-lg-4">
-                <div class="post-box w-100">
-                  <div class="post-img overflow-hidden position-relative w-100">
-                    <a href="blog-detail.html" title=""><img class="img-fluid w-100" src="assets/images/resources/blog-img1-3.jpg" alt="Blog Image 3"></a>
-                  </div>
-                  <div class="post-info position-relative w-100">
-                    <a class="thm-bg" href="blog-detail.html" title=""><i class="fas fa-link"></i></a>
-                    <span class="post-date thm-clr">April 25, 2020</span>
-                    <h3 class="mb-0"><a href="blog-detail.html" title="">If Islam Teaches Peace, Why Are there Radical Muslims?</a></h3>
-                    <ul class="post-meta d-flex flex-wrap mb-0 list-unstyled">
-                      <li><i class="fas fa-user-alt"></i>By: <a href="javascript:void(0);" title="">James Smith</a></li>
-                      <li><i class="fas fa-comment-alt"></i>15 Comments</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- Blog Wrap -->
-          <div class="view-more d-inline-block text-center w-100">
-            <a class="thm-btn mini-btn thm-bg" href="blog.html" title="">More News & Updates<span></span><span></span><span></span><span></span></a>
-          </div><!-- View More -->
         </div>
       </div>
     </section>

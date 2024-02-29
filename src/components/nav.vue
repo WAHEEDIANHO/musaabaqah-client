@@ -31,7 +31,7 @@
             <li class="">
               <router-link to="/" title="">Home</router-link>
             </li>
-            <li class=""><router-link  to="/participant" title="">Register</router-link></li>
+            <li class=""><router-link  to="/register" title="">Register</router-link></li>
             <li class="">
               <router-link to="/competition">Competition</router-link>
             </li>
