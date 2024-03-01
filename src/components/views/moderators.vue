@@ -131,7 +131,7 @@
     </div>
     <TimeCounter :maxTime="this.$route?.query?.time" />
   </section>
-  <TimeCounter :maxTime="this.$route?.query?.time"/>
+<!--  <TimeCounter :maxTime="this.$route?.query?.time"/>-->
 </template>
 
 <script>
