@@ -13,6 +13,7 @@ import CompetitionPage from "@/components/views/CompetitionPage.vue";
 const routes = [
     {path: '/participant', component: Participants},
     {path: '/moderator', component:  Moderators },
+    {path: '/master-moderator', component:  Moderators },
     {path: '/register', component:  RegisterPage },
     {path: '/competition', component:  CompetitionPage },
     {path: '/', component: Home}

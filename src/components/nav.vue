@@ -1,5 +1,6 @@
 <template>
-  <header class="stick style1 w-100">
+  <header class="sticky style1 w-100">
+<!--    stick-->
     <div class="topbar bg-color1 d-flex flex-wrap justify-content-center w-100">
       <ul class="topbar-info-list mb-0 list-unstyled d-inline-flex">
         <li><i class="thm-clr flaticon-sun"></i>Sunrise At: <span class="thm-clr">5:05am</span></li>
@@ -16,10 +17,10 @@
 
     <!-- Topbar -->
     <div class="logo-menu-wrap d-flex flex-wrap justify-content-between w-100">
-      <div class="logo position-relative thm-layer opc7 back-blend-multiply thm-bg" :style="`background-image: url(${require('./../assets/images/pattern-bg.jpg')});`">
+      <div class="logo position-relative thm-layer opc7 back-blend-multiply thm-bg" :style="`background-image: url(${require('./../assets/images/patternBg.jpg')});`">
         <h1 class="mb-0">
           <router-link to="/" title="Home">
-            <img class="img-fluid" :src="require('./../assets/images/logo.png')" alt="Logo" :srcset="require('./../assets/images/logo.png')">
+<!--            <img class="img-fluid" :src="require('./../assets/images/logo.png')" alt="Logo" :srcset="require('./../assets/images/logo.png')">-->
           </router-link>
         </h1>
       </div>
@@ -42,16 +43,17 @@
       </nav>
     </div><!-- Logo Menu Wrap -->
   </header><!-- Header -->
+<!--  <div class="sticky-menu">-->
   <div class="sticky-menu">
     <div class="container">
       <div class="sticky-menu-inner d-flex flex-wrap align-items-center justify-content-between w-100">
-        <div class="logo">
-          <h1 class="mb-0">
-            <router-link to="/" title="Home">
-              <img class="img-fluid" :src="require('./../assets/images/logo3.png')" alt="Logo" :srcset="require('./../assets/images/logo3.png')">
-            </router-link>
-          </h1>
-        </div><!-- Logo -->
+<!--        <div class="logo">-->
+<!--          <h1 class="mb-0">-->
+<!--            <router-link to="/" title="Home">-->
+<!--              <img class="img-fluid" :src="require('./../assets/images/logo3.png')" alt="Logo" :srcset="require('./../assets/images/logo3.png')">-->
+<!--            </router-link>-->
+<!--          </h1>-->
+<!--        </div>&lt;!&ndash; Logo &ndash;&gt;-->
         <nav class="d-flex flex-wrap align-items-center justify-content-between">
           <div class="header-left">
             <ul class="mb-0 list-unstyled d-inline-flex">
@@ -87,7 +89,7 @@
       </form>
     </div>
     <div class="lg-mn">
-      <div class="logo"><router-link to="index-2.html" title="Home"><img src="assets/images/logo3.png" alt="Logo"></router-link></div>
+<!--      <div class="logo"><router-link to="index-2.html" title="Home"><img src="assets/images/logo3.png" alt="Logo"></router-link></div>-->
       <div class="rspn-cnt">
         <span><i class="thm-clr far fa-envelope"></i><a href="javascript:void(0);" title="">info@youremailid.com</a></span>
         <span><i class="thm-clr fas fa-phone-alt"></i>+96 125 554 24 5</span>

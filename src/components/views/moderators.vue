@@ -9,14 +9,15 @@
         </router-link>
         <div class="page-title-wrap text-center w-100">
           <div class="page-title-inner d-inline-block">
-            <h1 class="mb-0">JUDGE</h1>
+            <h1 v-if="$route.path.indexOf('master-moderator') >= 0" class="mb-0">MASTER-JUDGE</h1>
+            <h1 v-else class="mb-0">JUDGE</h1>
             <ol class="breadcrumb mb-0">
               <!--                  <li class="breadcrumb-item">SAFIU WAHEED</li>-->
               <!--                  <li class="breadcrumb-item active">Modrasha</li>-->
             </ol>
           </div>
         </div>
-        <button class="btn btn-lg btn-outline-success" @click="done">Next Participant</button>
+        <button v-if="$route.path.indexOf('master-moderator') >= 0" class="btn btn-lg btn-outline-success" @click="done">Next Participant</button>
       </div>
     </div>
   </section>
@@ -26,9 +27,11 @@
       <div class="px-4 w-75 mx-auto d-flex flex-column align-items-center">
         <label class="display-4" for="juz-memorize">Juz Memorized?</label>
         <select class="form-control" id="juz-memorize" type="number" v-model="juzz_no">
-          <option v-for="el in available_range" :key="el" :value="el">{{el}}</option>
+<!--          <template v-if="$route.path.indexOf('master-moderator') >= 0">-->
+            <option v-for="el in available_range" :key="el" :value="el">{{el}}</option>
+<!--          </template>-->
         </select>
-        <button @click="showJuzzRange" class="btn btn-success btn-lg w-50 mt-20">Next</button>
+        <button v-if="$route.path.indexOf('master-moderator') >= 0" @click="showJuzzRange" class="btn btn-success btn-lg w-50 mt-20">Next</button>
       </div>
     </div>
   </section>
@@ -108,12 +111,12 @@
 
   <section v-else>
     <div class="w-100 pt-120 pb-280 position-relative">
-      <img class="sec-botm-rgt-mckp img-fluid position-absolute" :src="require('@/assets/images/sec-botm-mckp.png')" alt="Sec Bottom Mockup">
+<!--      <img class="sec-botm-rgt-mckp img-fluid position-absolute" :src="require('@/assets/images/sec-botm-mckp.png')" alt="Sec Bottom Mockup">-->
       <div class="container-fluid px-5">
         <div class="serv-wrap wide-sec">
           <div class="row px-5 justify-content-center flex-row-reverse mrg10">
             <div style="cursor: pointer" class="col-md-6 col-sm-6 col-lg-3"  v-for="({chapter, verse, preview, page}, i) in questions" :key="i" @click="() => showQuranPreview(chapter, verse)">
-              <div class="serv-box text-center pat-bg gray-layer opc8 position-relative back-blend-multiply gray-bg w-100" :style="`background-image: url(${require('@/assets/images/pattern-bg.jpg')})`">
+              <div class="serv-box text-center pat-bg gray-layer opc8 position-relative back-blend-multiply gray-bg w-100" :style="`background-image: url(${require('@/assets/images/patternBg.jpg')})`">
                 <i class="flaticon-quran thm-clr"></i>
                 <h3 class="mb-2">{{`pg${page} Q${chapter}:${verse}`}}</h3>
                 <div class="d-flex justify-content-between">
@@ -126,15 +129,19 @@
         </div><!-- Services Wrap -->
       </div>
     </div>
+    <TimeCounter :maxTime="this.$route?.query?.time" />
   </section>
+  <TimeCounter :maxTime="this.$route?.query?.time"/>
 </template>
 
 <script>
 import io from 'socket.io-client'
+import TimeCounter from "@/components/widget/TimeCounter.vue";
 // import axios from 'axios'
 
 export default {
    name: 'ModeratorPage',
+  components: {TimeCounter},
    data () {
        return {
           questions: [],
@@ -148,6 +155,7 @@ export default {
 
     mounted () {
             this.$nextTick(async function() {
+              //console.log(this.$route.path)
               const { query } = this.$route || {};
                 this.socket.emit("JOIN", {room: query?.name})
                 this.socket.on('GENERATE_QUESTION', question => {

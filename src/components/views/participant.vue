@@ -103,12 +103,12 @@
 
       <section v-if="chapter_range.length > 0 && !progress">
         <div class="w-100 pt-120 pb-280 position-relative">
-          <img class="sec-botm-rgt-mckp img-fluid position-absolute" :src="require('@/assets/images/sec-botm-mckp.png')" alt="Sec Bottom Mockup">
+<!--          <img class="sec-botm-rgt-mckp img-fluid position-absolute" :src="require('@/assets/images/sec-botm-mckp.png')" alt="Sec Bottom Mockup">-->
           <div class="container">
             <div class="serv-wrap wide-sec">
               <div class="row justify-content-center flex-row-reverse mrg10">
                 <div class="col-md-6 col-sm-6 col-lg-3" v-for="(el, i) in chapter_range" :key="i" @click="() => sendRange(juz_range[i])">
-                  <div class="serv-box text-center pat-bg gray-layer opc8 position-relative back-blend-multiply gray-bg w-100" :style="`background-image: url(${require('@/assets/images/pattern-bg.jpg')})`">
+                  <div class="serv-box text-center pat-bg gray-layer opc8 position-relative back-blend-multiply gray-bg w-100" :style="`background-image: url(${require('@/assets/images/patternBg.jpg')})`">
                     <i class="flaticon-quran thm-clr"></i>
                     <h3 class="mb-0">Juz Range</h3>
                     <div class="d-flex justify-content-between">

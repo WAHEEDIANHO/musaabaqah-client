@@ -3,7 +3,7 @@
    <div class="container py-5">
      <div class="team-wrap wide-sec2">
        <div class="row">
-         <div class="col-md-6 col-sm-6 col-lg-3" v-for="(competition, i) in competitions" :key="i">
+         <div class="col-md-6 col-sm-6 col-lg-4" v-for="(competition, i) in competitions" :key="i">
            <div class="team-box text-center w-100">
              <div class="team-img overflow-hidden position-relative w-100">
                <img class="img-fluid w-100" :src="require('@/assets/images/quran_hands.jpg')" alt="Team Image 1">
@@ -16,7 +16,8 @@
              <div class="team-info">
                <h3 class="mb-0">{{competition?.name}}</h3>
               <div class="d-flex flex-row justify-content-between">
-                <router-link :to="`/moderator?name=${competition?.name}&question=${competition?.question}`" class="">Moderator</router-link>
+                <router-link :to="`/master-moderator?name=${competition?.name}&question=${competition?.question}&time=${competition?.time}`" class="">M-Moderator</router-link>
+                <router-link :to="`/moderator?name=${competition?.name}&question=${competition?.question}&time=${competition?.time}`" class="">Moderator</router-link>
                 <router-link :to="`/participant?name=${competition?.name}&question=${competition?.question}`" class="">Participant</router-link>
               </div>
              </div>
